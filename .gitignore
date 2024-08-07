@@ -1,0 +1,70 @@
+# Node.js specific
+node_modules/
+npm-debug.log
+npm-debug.log.*
+yarn-error.log
+yarn-debug.log
+package-lock.json
+yarn.lock
+.pnpm-debug.log
+
+# Python specific
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+
+# Editors and IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+
+# Operating System generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+*.csv
+
+# Docker
+docker-compose.override.yml
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Documentation
+/docs/build/
+
+# Scripts
+/scripts/*.log
+
+# Compiled Static files
+/wwwroot/
+
+# Testing
+/coverage/
+/.nyc_output
+
+# Dist
+/dist/
+
+# Temp
+/tmp/
