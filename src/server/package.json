@@ -16,6 +16,7 @@
     "http": "0.0.1-security",
     "kafka-node": "^5.0.0",
     "mongoose": "^5.11.15",
+    "uuid": "^10.0.0",
     "ws": "^8.18.0"
   },
   "devDependencies": {

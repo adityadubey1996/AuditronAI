@@ -32,7 +32,6 @@ def load_schemas(schema_file='../../src/database/schema.json'):
 
     with open(absolute_schema_file, 'r') as file:
         schema_data = json.load(file)
-        
         schema_name = schema_data['name']
         schema_def = schema_data['fields']
         
